@@ -4,9 +4,10 @@ import { CommonModule } from '@angular/common';
 import { RoomRoutingModule } from './room-routing.module';
 import { RoomComponent } from './room/room.component';
 import { MaterialModule } from '../material.module';
+import { RoomListComponent } from './room-list/room-list.component';
 
 @NgModule({
-  declarations: [RoomComponent],
+  declarations: [RoomComponent, RoomListComponent],
   imports: [
     CommonModule,
     RoomRoutingModule,
