@@ -3,4 +3,5 @@ export interface Room {
   type: 'single' | 'double' | 'triple';
   fees: number;
   isAllocated: boolean;
+  allotedTo: string[];
 }
