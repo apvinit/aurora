@@ -1,7 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { RoomService } from 'src/app/api/room.service';
-import { Observable } from 'rxjs';
 import { Room } from 'src/app/model/room';
+import { MatTableDataSource } from '@angular/material/table';
+import { MatPaginator } from '@angular/material/paginator';
 
 @Component({
   selector: 'app-room-list',
@@ -10,13 +11,17 @@ import { Room } from 'src/app/model/room';
 })
 export class RoomListComponent implements OnInit {
 
-  rooms: Room[];
+  roomDataSource = new MatTableDataSource<Room>();
   columnsToDisplay = ['name', 'type', 'fees', 'isAlloted'];
+
+  @ViewChild(MatPaginator) paginator: MatPaginator;
+
   constructor(private roomService: RoomService) { }
 
   ngOnInit() {
     this.roomService.getRooms().subscribe((rooms: Room[]) => {
-      this.rooms = rooms;
+      this.roomDataSource.data = rooms;
+      this.roomDataSource.paginator = this.paginator;
     });
   }
 
