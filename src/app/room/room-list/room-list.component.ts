@@ -11,6 +11,7 @@ import { Room } from 'src/app/model/room';
 export class RoomListComponent implements OnInit {
 
   rooms: Room[];
+  columnsToDisplay = ['name', 'type', 'fees', 'isAlloted'];
   constructor(private roomService: RoomService) { }
 
   ngOnInit() {

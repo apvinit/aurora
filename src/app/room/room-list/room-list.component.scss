@@ -5,3 +5,7 @@
 .flex-1 {
   flex: 1;
 }
+table {
+  width: calc(100% - 32px);
+  margin: 16px;
+}
