@@ -5,7 +5,7 @@ import { RoomListComponent } from './room-list/room-list.component';
 
 const routes: Routes = [
   {
-    path: 'room',
+    path: 'rooms',
     component: RoomComponent,
     children: [
       {
