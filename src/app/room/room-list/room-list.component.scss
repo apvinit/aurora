@@ -6,6 +6,9 @@
   flex: 1;
 }
 table {
+  width: 100%;
+}
+.room-list {
   width: calc(100% - 32px);
   margin: 16px;
 }
