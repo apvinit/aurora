@@ -19,7 +19,7 @@
       <ng-container matColumnDef="isAlloted">
         <th mat-header-cell *matHeaderCellDef>Allotment Status</th>
         <td mat-cell *matCellDef="let room">
-          {{ room.isAlloted ? "Alloted" : "Not Alloted" }}
+          {{ room.isAlloted === true ? 'Alloted' : 'Not Alloted' }}
         </td>
       </ng-container>
 
