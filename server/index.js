@@ -28,6 +28,10 @@ mongoose
     console.log('Error connecting to the database!,', err);
   });
 
+// Add Api routes
+const rooms = require('./routes/api/room.routes')
+app.use('/api/rooms', rooms);
+
 // Handle production
 if (process.env.NODE_ENV === 'production') {
   // static folder
