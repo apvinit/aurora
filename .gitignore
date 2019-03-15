@@ -49,4 +49,5 @@ Thumbs.db
 db.json
 
 # don't watch  server source code
-/server
+/server/.git
+/server/public
