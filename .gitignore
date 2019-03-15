@@ -47,3 +47,6 @@ Thumbs.db
 
 # dev files
 db.json
+
+# don't watch  server source code
+/server
