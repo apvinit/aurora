@@ -10,11 +10,14 @@ app.use(bodyParser.urlencoded({ extended: true }));
 // parse request of content-type - application/json
 app.use(bodyParser.json());
 
-// static folder
-app.use(express.static(__dirname + '/public/'));
+// Handle production
+if(process.env.NODE_ENV === 'production'){
+  // static folder
+  app.use(express.static(__dirname + '/public/'));
 
-// Handle SPA
-app.get(/.*/, (req, res) => res.sendFile(__dirname + '/public/index.html'));
+  // Handle SPA
+  app.get(/.*/, (req, res) => res.sendFile(__dirname + '/public/index.html'));
+}
 
 //listen for requests
 const port = process.env.PORT || 3000;
