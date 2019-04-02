@@ -45,9 +45,6 @@ testem.log
 .DS_Store
 Thumbs.db
 
-# dev files
-db.json
-
-# don't watch  server source code
+# don't watch  server git files code
 /server/.git
 /server/public
