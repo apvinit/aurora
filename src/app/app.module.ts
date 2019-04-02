@@ -9,6 +9,7 @@ import { MaterialModule } from './material.module';
 import { RoomModule } from './room/room.module';
 import { StudentModule } from './student/student.module';
 import { EmployeeModule } from './employee/employee.module';
+import { PaymentModule } from './payment/payment.module';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { EmployeeModule } from './employee/employee.module';
     RoomModule,
     StudentModule,
     EmployeeModule,
+    PaymentModule,
     AppRoutingModule
   ],
   providers: [],
