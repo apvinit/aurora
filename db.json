@@ -278,5 +278,55 @@
       "fees" : "6000",
       "isAlloted" : "true"
     }
+  ],
+  "employees" : [
+    {
+      "name" : "Sunil Mahto",
+      "department" : "Management",
+      "role" : "Warden",
+      "salary" : 8000
+    },
+    {
+      "name" : "Sumit Kumar",
+      "department" : "Food",
+      "role" : "Head Cook",
+      "salary" : 6000
+    },
+    {
+      "name" : "Rajesh Yadav",
+      "department" : "Food",
+      "role" : "Support Staff",
+      "salary" : 5000
+    },
+    {
+      "name" : "Aman Kumar",
+      "department" : "Food",
+      "role" : "Support Staff",
+      "salary" : 5000
+    },
+    {
+      "name" : "A. N. Singh",
+      "department" : "Security",
+      "role" : "Warden",
+      "salary" : 6000
+    },
+    {
+      "name" : "Raman Kumar",
+      "department" : "Cleaning",
+      "role" : "Bathroom Cleaner",
+      "salary" : 5000
+    },
+    {
+      "name" : "Nazrana Khatoon",
+      "department" : "Cleaning",
+      "role" : "Sweeper",
+      "salary" : 5000
+    },
+    {
+      "name" : "Mahto Sahab",
+      "department" : "Cleaning",
+      "role" : "Dustbin Cleaner",
+      "salary" : 5000
+    }
   ]
 }
