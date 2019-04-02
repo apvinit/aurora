@@ -8,6 +8,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material.module';
 import { RoomModule } from './room/room.module';
 import { StudentModule } from './student/student.module';
+import { EmployeeModule } from './employee/employee.module';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { StudentModule } from './student/student.module';
     MaterialModule,
     RoomModule,
     StudentModule,
+    EmployeeModule,
     AppRoutingModule
   ],
   providers: [],
