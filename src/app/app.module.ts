@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material.module';
 import { RoomModule } from './room/room.module';
+import { StudentModule } from './student/student.module';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { RoomModule } from './room/room.module';
     HttpClientModule,
     MaterialModule,
     RoomModule,
-    AppRoutingModule,
+    StudentModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
