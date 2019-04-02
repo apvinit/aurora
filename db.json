@@ -1,0 +1,282 @@
+{
+  "students": [
+    {
+      "name": "Sajjad Ansari",
+      "fatherName": "Azad Ansari",
+      "roomNo": "C3",
+      "instituteName": "Mentors"
+    },
+    {
+      "name": "Ankit Singh",
+      "fatherName": "Rajiv Singh",
+      "roomNo": "C2",
+      "instituteName": "Others"
+    },
+    {
+      "name": "Vishal Singh",
+      "fatherName": "Angad Singh",
+      "roomNo": "C2",
+      "instituteName": "Others"
+    },
+    {
+      "name": "Siddhart Sharma",
+      "fatherName": "Student Father Name",
+      "roomNo": "C1",
+      "instituteName": "mentors"
+    },
+    {
+      "name": "Aman Yadav",
+      "fatherName": "Student Father Name",
+      "roomNo": "C1",
+      "instituteName": "mentors"
+    },
+    {
+      "name": "Vishank Arun",
+      "fatherName": "Student Father Name",
+      "roomNo": "A2",
+      "instituteName": "mentors"
+    },
+    {
+      "name": "Chandan Kumar",
+      "fatherName": "Student Father Name",
+      "roomNo": "A2",
+      "instituteName": "mentors"
+    },
+    {
+      "name": "Aditya Prakash",
+      "fatherName": "Student Father Name",
+      "roomNo": "B1",
+      "instituteName": "mentors"
+    },
+    {
+      "name": "Kishan Yadav",
+      "fatherName": "Student Father Name",
+      "roomNo": "B2",
+      "instituteName": "mentors"
+    },
+    {
+      "name": "Rajeev Bhatiya",
+      "fatherName": "Student Father Name",
+      "roomNo": "B2",
+      "instituteName": "mentors"
+    },
+    {
+      "name": "Habibur Rehman",
+      "fatherName": "Student Father Name",
+      "roomNo": "B1",
+      "instituteName": "mentors"
+    },
+    {
+      "name": "Ankur Kumar",
+      "fatherName": "Student Father Name",
+      "roomNo": "D3",
+      "instituteName": "mentors"
+    },
+    {
+      "name": "Rakesh Ranjan",
+      "fatherName": "Student Father Name",
+      "roomNo": "4",
+      "instituteName": "mentors"
+    },
+    {
+      "name": "Gangesh Gunjan",
+      "fatherName": "Student Father Name",
+      "roomNo": "E1",
+      "instituteName": "mentors"
+    },
+    {
+      "name": "Mayank Verma",
+      "fatherName": "Student Father Name",
+      "roomNo": "A2",
+      "instituteName": "mentors"
+    },
+    {
+      "name": "Monty Yadav",
+      "fatherName": "Student Father Name",
+      "roomNo": "C1",
+      "instituteName": "mentors"
+    },
+    {
+      "name": "Vicky Kumar",
+      "fatherName": "Student Father Name",
+      "roomNo": "C1",
+      "instituteName": "mentors"
+    },
+    {
+      "name": "Rajit Yadav",
+      "fatherName": "Student Father Name",
+      "roomNo": "C1",
+      "instituteName": "mentors"
+    },
+    {
+      "name": "Rishikesh Kumar",
+      "fatherName": "Student Father Name",
+      "roomNo": "A1",
+      "instituteName": "mentors"
+    },
+    {
+      "name": "Shams Raza",
+      "fatherName": "Student Father Name",
+      "roomNo": "E1",
+      "instituteName": "Akash"
+    },
+    {
+      "name": "Aditya Prakash",
+      "fatherName": "Student Father Name",
+      "roomNo": "D2",
+      "instituteName": "mentors"
+    },
+    {
+      "name": "Priyavrat Yadav",
+      "fatherName": "Student Father Name",
+      "roomNo": "A1",
+      "instituteName": "Akash"
+    }
+  ],
+  "rooms": [
+    {
+      "name" : "A1",
+      "type" : "double",
+      "fees" : "6000",
+      "isAlloted" : "false"
+    },
+    {
+      "name" : "A2",
+      "type" : "single",
+      "fees" : "6500",
+      "isAlloted" : "true"
+    },
+    {
+      "name" : "A3",
+      "type" : "double",
+      "fees" : "6000",
+      "isAlloted" : "false"
+    },
+    {
+      "name" : "A4",
+      "type" : "double",
+      "fees" : "6000",
+      "isAlloted" : "true"
+    },
+    {
+      "name" : "B1",
+      "type" : "triple",
+      "fees" : "5000",
+      "isAlloted" : "false"
+    },
+    {
+      "name" : "B2",
+      "type" : "double",
+      "fees" : "6000",
+      "isAlloted" : "true"
+    },
+    {
+      "name" : "B3",
+      "type" : "double",
+      "fees" : "6000",
+      "isAlloted" : "false"
+    },
+    {
+      "name" : "B4",
+      "type" : "double",
+      "fees" : "6000",
+      "isAlloted" : "true"
+    },
+    {
+      "name" : "B5",
+      "type" : "double",
+      "fees" : "6000",
+      "isAlloted" : "false"
+    },
+    {
+      "name" : "B6",
+      "type" : "double",
+      "fees" : "6000",
+      "isAlloted" : "false"
+    },
+    {
+      "name" : "C1",
+      "type" : "single",
+      "fees" : "6500",
+      "isAlloted" : "true"
+    },
+    {
+      "name" : "C2",
+      "type" : "single",
+      "fees" : "6500",
+      "isAlloted" : "true"
+    },
+    {
+      "name" : "C3",
+      "type" : "double",
+      "fees" : "6000",
+      "isAlloted" : "false"
+    },
+    {
+      "name" : "C4",
+      "type" : "double",
+      "fees" : "6000",
+      "isAlloted" : "true"
+    },
+    {
+      "name" : "C5",
+      "type" : "triple",
+      "fees" : "5000",
+      "isAlloted" : "false"
+    },
+    {
+      "name" : "D1",
+      "type" : "single",
+      "fees" : "6500",
+      "isAlloted" : "true"
+    },
+    {
+      "name" : "D2",
+      "type" : "single",
+      "fees" : "6000",
+      "isAlloted" : "false"
+    },
+    {
+      "name" : "D3",
+      "type" : "triple",
+      "fees" : "5000",
+      "isAlloted" : "true"
+    },
+    {
+      "name" : "D4",
+      "type" : "double",
+      "fees" : "6000",
+      "isAlloted" : "false"
+    },
+    {
+      "name" : "D5",
+      "type" : "double",
+      "fees" : "6000",
+      "isAlloted" : "false"
+    },
+    {
+      "name" : "D6",
+      "type" : "triple",
+      "fees" : "5000",
+      "isAlloted" : "true"
+    },
+    {
+      "name" : "E1",
+      "type" : "single",
+      "fees" : "6500",
+      "isAlloted" : "false"
+    },
+    {
+      "name" : "E2",
+      "type" : "double",
+      "fees" : "6000",
+      "isAlloted" : "true"
+    },
+    {
+      "name" : "E3",
+      "type" : "single",
+      "fees" : "6000",
+      "isAlloted" : "true"
+    }
+  ]
+}
